@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B5EC0122C0D96A007E66B4 /* BTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B5EC0022C0D96A007E66B4 /* BTree.h */; };
+		45B5EC0322C0D96A007E66B4 /* BTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EC0222C0D96A007E66B4 /* BTree.m */; };
+		45B5EC0922C0D973007E66B4 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7773861C6CA08B00991A06 /* Weak.swift */; };
+		45B5EC0A22C0D973007E66B4 /* BTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506381DD0D13A00D0FC8E /* BTree.swift */; };
+		45B5EC0B22C0D973007E66B4 /* BTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506511DD0D16600D0FC8E /* BTreeNode.swift */; };
+		45B5EC0C22C0D973007E66B4 /* BTreeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5063E1DD0D15400D0FC8E /* BTreeIndex.swift */; };
+		45B5EC0D22C0D973007E66B4 /* BTreeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5063F1DD0D15400D0FC8E /* BTreeIterator.swift */; };
+		45B5EC0E22C0D973007E66B4 /* BTreePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506401DD0D15400D0FC8E /* BTreePath.swift */; };
+		45B5EC0F22C0D973007E66B4 /* BTreeCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5063D1DD0D15400D0FC8E /* BTreeCursor.swift */; };
+		45B5EC1022C0D973007E66B4 /* BTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506561DD0D17700D0FC8E /* BTreeBuilder.swift */; };
+		45B5EC1122C0D973007E66B4 /* BTreeComparisons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506571DD0D17700D0FC8E /* BTreeComparisons.swift */; };
+		45B5EC1222C0D973007E66B4 /* BTreeMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506581DD0D17700D0FC8E /* BTreeMerger.swift */; };
+		45B5EC1322C0D973007E66B4 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506651DD0D18400D0FC8E /* List.swift */; };
+		45B5EC1422C0D973007E66B4 /* BridgedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506791DD0D18D00D0FC8E /* BridgedList.swift */; };
+		45B5EC1522C0D973007E66B4 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506661DD0D18400D0FC8E /* Map.swift */; };
+		45B5EC1622C0D973007E66B4 /* SortedBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506671DD0D18400D0FC8E /* SortedBag.swift */; };
+		45B5EC1722C0D973007E66B4 /* SortedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB506681DD0D18400D0FC8E /* SortedSet.swift */; };
+		45B5EC1822C0D973007E66B4 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5067E1DD0D19600D0FC8E /* Compatibility.swift */; };
 		BB1747571C289539002C929C /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17474A1C289539002C929C /* Permutations.swift */; };
 		BB1747581C289539002C929C /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17474A1C289539002C929C /* Permutations.swift */; };
 		BB17475A1C289539002C929C /* PermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17474B1C289539002C929C /* PermutationTests.swift */; };
@@ -164,6 +182,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45B5EBFE22C0D96A007E66B4 /* libBTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBTree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B5EC0022C0D96A007E66B4 /* BTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
+		45B5EC0222C0D96A007E66B4 /* BTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTree.m; sourceTree = "<group>"; };
 		BB0ACC711C7C7E66000C0B98 /* BTree.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BTree.podspec; sourceTree = "<group>"; };
 		BB0D75D91C1F045C00538080 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; lineEnding = 0; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		BB17474A1C289539002C929C /* Permutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
@@ -222,6 +243,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		45B5EBFC22C0D96A007E66B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB338C821DD27D2F00BB401D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +313,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45B5EBFF22C0D96A007E66B4 /* BTree */ = {
+			isa = PBXGroup;
+			children = (
+				45B5EC0022C0D96A007E66B4 /* BTree.h */,
+				45B5EC0222C0D96A007E66B4 /* BTree.m */,
+			);
+			path = BTree;
+			sourceTree = "<group>";
+		};
 		BB338C861DD27D2F00BB401D /* PerformanceTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +347,7 @@
 				BB54D0B11C1F0357008A462B /* Sources */,
 				BB54D0BD1C1F0357008A462B /* Tests */,
 				BB338C861DD27D2F00BB401D /* PerformanceTests */,
+				45B5EBFF22C0D96A007E66B4 /* BTree */,
 				BB54D0B01C1F0357008A462B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -325,6 +363,7 @@
 				BB8FE9B01C7C8E0E0051268F /* BTree.framework */,
 				BB8FE9B91C7C8E0E0051268F /* BTreeTests.xctest */,
 				BB338C851DD27D2F00BB401D /* PerformanceTests.xctest */,
+				45B5EBFE22C0D96A007E66B4 /* libBTree.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -391,6 +430,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		45B5EBFA22C0D96A007E66B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B5EC0122C0D96A007E66B4 /* BTree.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB54D0AC1C1F0357008A462B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +469,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		45B5EBFD22C0D96A007E66B4 /* BTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B5EC0822C0D96B007E66B4 /* Build configuration list for PBXNativeTarget "BTree" */;
+			buildPhases = (
+				45B5EBFA22C0D96A007E66B4 /* Headers */,
+				45B5EBFB22C0D96A007E66B4 /* Sources */,
+				45B5EBFC22C0D96A007E66B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTree;
+			productName = BTree;
+			productReference = 45B5EBFE22C0D96A007E66B4 /* libBTree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		BB338C841DD27D2F00BB401D /* PerformanceTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB338C911DD27D2F00BB401D /* Build configuration list for PBXNativeTarget "PerformanceTests" */;
@@ -573,9 +637,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Károly Lőrentey";
 				TargetAttributes = {
+					45B5EBFD22C0D96A007E66B4 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+					};
 					BB338C841DD27D2F00BB401D = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
@@ -610,7 +679,7 @@
 			};
 			buildConfigurationList = BB54D0A91C1F0357008A462B /* Build configuration list for PBXProject "BTree" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -629,6 +698,7 @@
 				BB9AE44B1C1FCE0B002C5D63 /* Tests-Mac */,
 				BB8FE9B81C7C8E0E0051268F /* Tests-tvOS */,
 				BB338C841DD27D2F00BB401D /* PerformanceTests */,
+				45B5EBFD22C0D96A007E66B4 /* BTree */,
 			);
 		};
 /* End PBXProject section */
@@ -693,6 +763,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45B5EBFB22C0D96A007E66B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B5EC0E22C0D973007E66B4 /* BTreePath.swift in Sources */,
+				45B5EC1422C0D973007E66B4 /* BridgedList.swift in Sources */,
+				45B5EC1622C0D973007E66B4 /* SortedBag.swift in Sources */,
+				45B5EC1222C0D973007E66B4 /* BTreeMerger.swift in Sources */,
+				45B5EC0D22C0D973007E66B4 /* BTreeIterator.swift in Sources */,
+				45B5EC0C22C0D973007E66B4 /* BTreeIndex.swift in Sources */,
+				45B5EC1122C0D973007E66B4 /* BTreeComparisons.swift in Sources */,
+				45B5EC1722C0D973007E66B4 /* SortedSet.swift in Sources */,
+				45B5EC1322C0D973007E66B4 /* List.swift in Sources */,
+				45B5EC0322C0D96A007E66B4 /* BTree.m in Sources */,
+				45B5EC0F22C0D973007E66B4 /* BTreeCursor.swift in Sources */,
+				45B5EC0922C0D973007E66B4 /* Weak.swift in Sources */,
+				45B5EC1522C0D973007E66B4 /* Map.swift in Sources */,
+				45B5EC0B22C0D973007E66B4 /* BTreeNode.swift in Sources */,
+				45B5EC1022C0D973007E66B4 /* BTreeBuilder.swift in Sources */,
+				45B5EC1822C0D973007E66B4 /* Compatibility.swift in Sources */,
+				45B5EC0A22C0D973007E66B4 /* BTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB338C811DD27D2F00BB401D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -894,6 +988,99 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		45B5EC0422C0D96B007E66B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45B5EC0522C0D96B007E66B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45B5EC0622C0D96B007E66B4 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Profile;
+		};
+		45B5EC0722C0D96B007E66B4 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Unchecked;
+		};
 		BB338C8D1DD27D2F00BB401D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -964,6 +1151,7 @@
 			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -972,12 +1160,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1084,6 +1274,7 @@
 			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1092,12 +1283,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1146,6 +1339,7 @@
 			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1154,12 +1348,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1520,6 +1716,7 @@
 			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1528,12 +1725,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1637,6 +1836,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45B5EC0822C0D96B007E66B4 /* Build configuration list for PBXNativeTarget "BTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B5EC0422C0D96B007E66B4 /* Debug */,
+				45B5EC0522C0D96B007E66B4 /* Release */,
+				45B5EC0622C0D96B007E66B4 /* Profile */,
+				45B5EC0722C0D96B007E66B4 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BB338C911DD27D2F00BB401D /* Build configuration list for PBXNativeTarget "PerformanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
